@@ -1,0 +1,15 @@
+﻿@model List<BookKeeperModel>
+
+
+<h5>Knygų sąrašas</h5>
+
+
+<ul>
+    @foreach (var item in Model)
+    {
+        <li>
+            Name: @item.Name, Date: @item.Date, Author: @item.Author
+
+        </li>
+    }
+</ul>

@@ -1,0 +1,23 @@
+Functional requirement:
+This application will be very similar to TodoApplication.
+
+Will again 2 extra tabs to Navigation bar:
+List -> which displays all books.
+Form -> Form to add new books.
+
+book should have name, date (keep it as a string), author full name
+
+Nonfunctional requirements:
+1. 2 different data saving modes
+   Json file -> use json file to load data.
+   Memory -> use AddSingleton dependency injection.
+
+   There two different classes should use the same interface
+2. Have writing/reading data in separate file (service) rather than controller.
+
+
+Advanced optional:
+	-1. Add new tab in navigation bar "Authors" -> the page just lists all the authors in the books
+	0. Add new saving mode - which would save data into .text file
+	1. Be able to configure Json, Text, or Memory storage in appsettings.json
+	2. Non-function -> the controllers should be minimal -> All main jobs should be done in service classes.

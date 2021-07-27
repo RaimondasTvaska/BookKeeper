@@ -1,0 +1,20 @@
+﻿@model BookKeeperModel
+
+<h5>Add new Book</h5>
+@using (Html.BeginForm("Add", "BookKeeper", FormMethod.Post))
+{
+    <div class="container-full" style="background-color:aliceblue">
+        <div class="container">
+            @Html.LabelFor(x => x.Name)
+            @Html.TextBoxFor(x => x.Name)
+
+            @Html.LabelFor(x => x.Date)
+            @Html.TextBoxFor(x => x.Date)
+
+            @Html.LabelFor(x => x.Author)
+            @Html.TextBoxFor(x => x.Author)
+            <input type="submit" value="Submit" />
+        </div>
+    </div>
+}
+

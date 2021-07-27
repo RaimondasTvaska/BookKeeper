@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31410.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookKeeper", "BookKeeper\BookKeeper.csproj", "{AEFF1143-F474-4677-B9C8-5104FE59D274}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{45D1E66C-3C04-4940-8615-C6E102415B35}"
+	ProjectSection(SolutionItems) = preProject
+		Requirements.txt = Requirements.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AEFF1143-F474-4677-B9C8-5104FE59D274}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEFF1143-F474-4677-B9C8-5104FE59D274}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEFF1143-F474-4677-B9C8-5104FE59D274}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEFF1143-F474-4677-B9C8-5104FE59D274}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {67A95182-C5AC-4A2B-BB1E-1E063CA67DCC}
+	EndGlobalSection
+EndGlobal
